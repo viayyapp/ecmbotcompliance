@@ -4,10 +4,8 @@ from json import JSONEncoder
 def conversation_fun():
 	
 	conversation = ConversationV1(
-		username='18c651c1-c2f4-403a-88bd-a920bd753c88',
-	# username='81cae901-ee0e-4066-b333-c6d9cc5532ec',
-	# password='NCdy2rD8GQ5N',
-	password='42HMzjtHrvCf',
+	username='f4f78f13-490f-4ea4-b7a8-d5ebf470011d',
+	password='pr0IqFp70Dyl',
 	version='2017-02-03')
 
 	return conversation
