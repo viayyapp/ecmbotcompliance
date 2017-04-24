@@ -98,7 +98,7 @@ def main_page():
 #			context["temp_context"]=temp_context
 
 		#print(json.dumps(context['user'][1]['category_name'],indent=4))
-		conv_workspace_id = 'e5fa2b42-e839-4e1b-9c6d-4d3ca9a93330'
+		conv_workspace_id = 'fdf0e0e7-3d19-4e3f-9a66-074143755a32'
 
 		response = conversation_fun().message(workspace_id = conv_workspace_id, message_input={'text': request.form['message']},context = context)
 		
